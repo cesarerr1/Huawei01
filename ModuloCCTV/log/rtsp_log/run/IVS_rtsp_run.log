@@ -1,0 +1,505 @@
+2015-11-22 00:07:53.373161 [EMR] [0x1334] |  
+==========[IVS_rtsp]System start running=========,ProcessID[1896]
+2015-11-22 00:07:53.783884 [INF] [0x1334] |  create reactor manager thred success.
+2015-11-22 00:07:53.783884 [INF] [0x1334] |  open reactor manager success.
+2015-11-22 00:07:53.785935 [INF] [0x020c] |  reactor manager thread start.
+2015-11-22 00:07:53.785251 [INF] [0x1158] |  reactor manager thread start.
+2015-11-22 00:07:53.784568 [INF] [0x12d8] |  reactor manager thread start.
+2015-11-22 00:07:53.785935 [DBG] [0x1334] |  init rtsp client success.
+2015-11-22 00:07:53.805070 [INF] [0x0b40] |  reactor manager thread start.
+2015-11-22 00:07:53.867943 [INF] [0x0bf8] |  reactor manager thread start.
+2015-11-22 10:45:59.532146 [EMR] [0x1980] |  
+==========[IVS_rtsp]System start running=========,ProcessID[6436]
+2015-11-22 10:45:59.785271 [INF] [0x1980] |  create reactor manager thred success.
+2015-11-22 10:45:59.785271 [INF] [0x1980] |  open reactor manager success.
+2015-11-22 10:45:59.785271 [DBG] [0x1980] |  init rtsp client success.
+2015-11-22 10:46:00.026091 [INF] [0x0d98] |  reactor manager thread start.
+2015-11-22 10:46:00.026091 [INF] [0x10e0] |  reactor manager thread start.
+2015-11-22 10:46:00.060369 [INF] [0x1a34] |  reactor manager thread start.
+2015-11-22 10:46:00.073552 [INF] [0x0ff0] |  reactor manager thread start.
+2015-11-22 10:46:00.074431 [INF] [0x1918] |  reactor manager thread start.
+2015-11-22 10:47:42.664766 [EMR] [0x0358] |  
+==========[IVS_rtsp]System start running=========,ProcessID[1208]
+2015-11-22 10:47:42.758516 [INF] [0x1a50] |  reactor manager thread start.
+2015-11-22 10:47:42.758516 [INF] [0x14e0] |  reactor manager thread start.
+2015-11-22 10:47:42.758516 [INF] [0x0358] |  create reactor manager thred success.
+2015-11-22 10:47:42.758516 [INF] [0x0358] |  open reactor manager success.
+2015-11-22 10:47:42.758516 [DBG] [0x0358] |  init rtsp client success.
+2015-11-22 10:47:42.758516 [INF] [0x1a98] |  reactor manager thread start.
+2015-11-22 10:47:42.789766 [INF] [0x1884] |  reactor manager thread start.
+2015-11-22 10:47:42.789766 [INF] [0x1a78] |  reactor manager thread start.
+2015-11-22 10:48:17.193379 [EMR] [0x0b00] |  
+==========[IVS_rtsp]System start running=========,ProcessID[6056]
+2015-11-22 10:48:17.291817 [INF] [0x16d4] |  reactor manager thread start.
+2015-11-22 10:48:17.291817 [INF] [0x0940] |  reactor manager thread start.
+2015-11-22 10:48:17.291817 [INF] [0x1988] |  reactor manager thread start.
+2015-11-22 10:48:17.305879 [INF] [0x0dec] |  reactor manager thread start.
+2015-11-22 10:48:17.305879 [INF] [0x0b00] |  create reactor manager thred success.
+2015-11-22 10:48:17.305879 [INF] [0x0b00] |  open reactor manager success.
+2015-11-22 10:48:17.305879 [INF] [0x1910] |  reactor manager thread start.
+2015-11-22 10:48:17.305879 [DBG] [0x0b00] |  init rtsp client success.
+2015-11-22 10:48:20.144726 [DBG] [0x0b00] |  set Exception Call Back function success.
+2015-11-22 10:57:10.154206 [EMR] [0x12a0] |  
+==========[IVS_rtsp]System start running=========,ProcessID[5696]
+2015-11-22 10:57:10.216706 [INF] [0x1180] |  reactor manager thread start.
+2015-11-22 10:57:10.216706 [INF] [0x12a0] |  create reactor manager thred success.
+2015-11-22 10:57:10.216706 [INF] [0x12a0] |  open reactor manager success.
+2015-11-22 10:57:10.216706 [DBG] [0x12a0] |  init rtsp client success.
+2015-11-22 10:57:10.232331 [INF] [0x1784] |  reactor manager thread start.
+2015-11-22 10:57:10.279206 [INF] [0x0f48] |  reactor manager thread start.
+2015-11-22 10:57:10.279206 [INF] [0x1a7c] |  reactor manager thread start.
+2015-11-22 10:57:10.279206 [INF] [0x05c0] |  reactor manager thread start.
+2015-11-22 11:01:08.282365 [EMR] [0x1a7c] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4400]
+2015-11-22 11:01:08.462052 [INF] [0x17b4] |  reactor manager thread start.
+2015-11-22 11:01:08.462052 [INF] [0x1a7c] |  create reactor manager thred success.
+2015-11-22 11:01:08.462052 [INF] [0x1a7c] |  open reactor manager success.
+2015-11-22 11:01:08.462052 [INF] [0x1ac4] |  reactor manager thread start.
+2015-11-22 11:01:08.462052 [DBG] [0x1a7c] |  init rtsp client success.
+2015-11-22 11:01:08.477677 [INF] [0x1888] |  reactor manager thread start.
+2015-11-22 11:01:08.508927 [INF] [0x1460] |  reactor manager thread start.
+2015-11-22 11:01:08.524552 [INF] [0x0e38] |  reactor manager thread start.
+2015-11-22 11:10:19.570480 [EMR] [0x08c0] |  
+==========[IVS_rtsp]System start running=========,ProcessID[6028]
+2015-11-22 11:10:19.706604 [INF] [0x1bf0] |  reactor manager thread start.
+2015-11-22 11:10:19.706604 [INF] [0x10dc] |  reactor manager thread start.
+2015-11-22 11:10:19.706604 [INF] [0x13c8] |  reactor manager thread start.
+2015-11-22 11:10:19.706604 [INF] [0x08c0] |  create reactor manager thred success.
+2015-11-22 11:10:19.706604 [INF] [0x08c0] |  open reactor manager success.
+2015-11-22 11:10:19.706604 [INF] [0x083c] |  reactor manager thread start.
+2015-11-22 11:10:19.706604 [INF] [0x0670] |  reactor manager thread start.
+2015-11-22 11:10:19.706604 [DBG] [0x08c0] |  init rtsp client success.
+2015-11-22 11:10:24.361396 [DBG] [0x08c0] |  set Exception Call Back function success.
+2015-11-22 11:11:04.427802 [EMR] [0x1928] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4580]
+2015-11-22 11:11:04.568427 [INF] [0x153c] |  reactor manager thread start.
+2015-11-22 11:11:04.568427 [INF] [0x1474] |  reactor manager thread start.
+2015-11-22 11:11:04.584052 [INF] [0x1410] |  reactor manager thread start.
+2015-11-22 11:11:04.584052 [INF] [0x1928] |  create reactor manager thred success.
+2015-11-22 11:11:04.599677 [INF] [0x1928] |  open reactor manager success.
+2015-11-22 11:11:04.599677 [DBG] [0x1928] |  init rtsp client success.
+2015-11-22 11:11:04.599677 [INF] [0x083c] |  reactor manager thread start.
+2015-11-22 11:11:04.638740 [INF] [0x10dc] |  reactor manager thread start.
+2015-11-22 11:11:07.552802 [DBG] [0x1928] |  set Exception Call Back function success.
+2015-11-22 11:11:39.436494 [EMR] [0x1348] |  
+==========[IVS_rtsp]System start running=========,ProcessID[6312]
+2015-11-22 11:11:39.451963 [INF] [0x0e38] |  reactor manager thread start.
+2015-11-22 11:11:39.451963 [INF] [0x1bf0] |  reactor manager thread start.
+2015-11-22 11:11:39.451963 [INF] [0x149c] |  reactor manager thread start.
+2015-11-22 11:11:39.451963 [INF] [0x1348] |  create reactor manager thred success.
+2015-11-22 11:11:39.451963 [INF] [0x1348] |  open reactor manager success.
+2015-11-22 11:11:39.451963 [INF] [0x1a44] |  reactor manager thread start.
+2015-11-22 11:11:39.451963 [INF] [0x16b8] |  reactor manager thread start.
+2015-11-22 11:11:39.451963 [DBG] [0x1348] |  init rtsp client success.
+2015-11-22 11:11:41.881531 [DBG] [0x1348] |  set Exception Call Back function success.
+2015-11-22 11:21:35.990755 [EMR] [0x1110] |  
+==========[IVS_rtsp]System start running=========,ProcessID[7024]
+2015-11-22 11:21:36.068098 [INF] [0x1110] |  create reactor manager thred success.
+2015-11-22 11:21:36.068098 [INF] [0x1110] |  open reactor manager success.
+2015-11-22 11:21:36.068098 [DBG] [0x1110] |  init rtsp client success.
+2015-11-22 11:21:36.068098 [INF] [0x0544] |  reactor manager thread start.
+2015-11-22 11:21:36.114504 [INF] [0x19b4] |  reactor manager thread start.
+2015-11-22 11:21:36.114504 [INF] [0x0d08] |  reactor manager thread start.
+2015-11-22 11:21:36.114504 [INF] [0x149c] |  reactor manager thread start.
+2015-11-22 11:21:36.114504 [INF] [0x0d70] |  reactor manager thread start.
+2015-11-22 11:21:38.843619 [DBG] [0x1110] |  set Exception Call Back function success.
+2015-11-22 11:24:32.482521 [EMR] [0x0e1c] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4736]
+2015-11-22 11:24:32.538771 [INF] [0x19d8] |  reactor manager thread start.
+2015-11-22 11:24:32.552834 [INF] [0x0824] |  reactor manager thread start.
+2015-11-22 11:24:32.552834 [INF] [0x0928] |  reactor manager thread start.
+2015-11-22 11:24:32.552834 [INF] [0x0e1c] |  create reactor manager thred success.
+2015-11-22 11:24:32.552834 [INF] [0x0e1c] |  open reactor manager success.
+2015-11-22 11:24:32.552834 [DBG] [0x0e1c] |  init rtsp client success.
+2015-11-22 11:24:32.552834 [INF] [0x0d24] |  reactor manager thread start.
+2015-11-22 11:24:32.637209 [INF] [0x1650] |  reactor manager thread start.
+2015-11-22 11:24:34.653405 [DBG] [0x0e1c] |  set Exception Call Back function success.
+2015-11-22 12:42:44.893667 [EMR] [0x15b8] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4504]
+2015-11-22 12:42:44.984487 [INF] [0x15b8] |  create reactor manager thred success.
+2015-11-22 12:42:44.984487 [INF] [0x15b8] |  open reactor manager success.
+2015-11-22 12:42:44.984487 [DBG] [0x15b8] |  init rtsp client success.
+2015-11-22 12:42:44.984487 [INF] [0x1148] |  reactor manager thread start.
+2015-11-22 12:42:44.993276 [INF] [0x1964] |  reactor manager thread start.
+2015-11-22 12:42:44.996205 [INF] [0x15dc] |  reactor manager thread start.
+2015-11-22 12:42:45.019643 [INF] [0x10f0] |  reactor manager thread start.
+2015-11-22 12:42:45.019643 [INF] [0x0494] |  reactor manager thread start.
+2015-11-22 13:09:59.645676 [EMR] [0x1784] |  
+==========[IVS_rtsp]System start running=========,ProcessID[720]
+2015-11-22 13:09:59.705051 [INF] [0x18dc] |  reactor manager thread start.
+2015-11-22 13:09:59.705051 [INF] [0x1660] |  reactor manager thread start.
+2015-11-22 13:09:59.719894 [INF] [0x1884] |  reactor manager thread start.
+2015-11-22 13:09:59.719894 [INF] [0x1784] |  create reactor manager thred success.
+2015-11-22 13:09:59.719894 [INF] [0x1784] |  open reactor manager success.
+2015-11-22 13:09:59.719894 [INF] [0x1f18] |  reactor manager thread start.
+2015-11-22 13:09:59.719894 [DBG] [0x1784] |  init rtsp client success.
+2015-11-22 13:09:59.719894 [INF] [0x1d40] |  reactor manager thread start.
+2015-11-22 13:10:31.930432 [EMR] [0x16f0] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4300]
+2015-11-22 13:10:32.073271 [INF] [0x1540] |  reactor manager thread start.
+2015-11-22 13:10:32.085175 [INF] [0x16f0] |  create reactor manager thred success.
+2015-11-22 13:10:32.085175 [INF] [0x16f0] |  open reactor manager success.
+2015-11-22 13:10:32.097078 [INF] [0x1718] |  reactor manager thread start.
+2015-11-22 13:10:32.097078 [DBG] [0x16f0] |  init rtsp client success.
+2015-11-22 13:10:32.097078 [INF] [0x1fcc] |  reactor manager thread start.
+2015-11-22 13:10:32.097078 [INF] [0x1bf0] |  reactor manager thread start.
+2015-11-22 13:10:32.097078 [INF] [0x1f50] |  reactor manager thread start.
+2015-11-22 13:14:24.475458 [EMR] [0x12bc] |  
+==========[IVS_rtsp]System start running=========,ProcessID[3560]
+2015-11-22 13:14:24.553583 [INF] [0x0814] |  reactor manager thread start.
+2015-11-22 13:14:24.553583 [INF] [0x1a50] |  reactor manager thread start.
+2015-11-22 13:14:24.553583 [INF] [0x1ab8] |  reactor manager thread start.
+2015-11-22 13:14:24.553583 [INF] [0x12bc] |  create reactor manager thred success.
+2015-11-22 13:14:24.553583 [INF] [0x12bc] |  open reactor manager success.
+2015-11-22 13:14:24.553583 [INF] [0x1b00] |  reactor manager thread start.
+2015-11-22 13:14:24.553583 [DBG] [0x12bc] |  init rtsp client success.
+2015-11-22 13:14:24.662958 [INF] [0x10c0] |  reactor manager thread start.
+2015-11-22 13:15:40.898275 [EMR] [0x1718] |  
+==========[IVS_rtsp]System start running=========,ProcessID[2856]
+2015-11-22 13:15:41.051415 [INF] [0x1718] |  create reactor manager thred success.
+2015-11-22 13:15:41.068430 [INF] [0x1718] |  open reactor manager success.
+2015-11-22 13:15:41.068430 [DBG] [0x1718] |  init rtsp client success.
+2015-11-22 13:15:41.068430 [INF] [0x1944] |  reactor manager thread start.
+2015-11-22 13:15:41.068430 [INF] [0x10e0] |  reactor manager thread start.
+2015-11-22 13:15:41.068430 [INF] [0x0d58] |  reactor manager thread start.
+2015-11-22 13:15:41.103525 [INF] [0x1928] |  reactor manager thread start.
+2015-11-22 13:15:41.104588 [INF] [0x1c7c] |  reactor manager thread start.
+2015-11-22 13:18:40.029913 [EMR] [0x0cb8] |  
+==========[IVS_rtsp]System start running=========,ProcessID[2964]
+2015-11-22 13:18:40.184601 [INF] [0x0f4c] |  reactor manager thread start.
+2015-11-22 13:18:40.184601 [INF] [0x1ccc] |  reactor manager thread start.
+2015-11-22 13:18:40.184601 [INF] [0x0cb8] |  create reactor manager thred success.
+2015-11-22 13:18:40.184601 [INF] [0x0cb8] |  open reactor manager success.
+2015-11-22 13:18:40.184601 [DBG] [0x0cb8] |  init rtsp client success.
+2015-11-22 13:18:40.184601 [INF] [0x1140] |  reactor manager thread start.
+2015-11-22 13:18:40.198663 [INF] [0x1b64] |  reactor manager thread start.
+2015-11-22 13:18:40.198663 [INF] [0x08c0] |  reactor manager thread start.
+2015-11-22 13:53:04.554944 [EMR] [0x0b00] |  
+==========[IVS_rtsp]System start running=========,ProcessID[7820]
+2015-11-22 13:53:04.656018 [INF] [0x1fa8] |  reactor manager thread start.
+2015-11-22 13:53:04.656018 [INF] [0x04b4] |  reactor manager thread start.
+2015-11-22 13:53:04.656018 [INF] [0x0b00] |  create reactor manager thred success.
+2015-11-22 13:53:04.656018 [INF] [0x0b00] |  open reactor manager success.
+2015-11-22 13:53:04.670081 [INF] [0x1c90] |  reactor manager thread start.
+2015-11-22 13:53:04.670081 [INF] [0x1198] |  reactor manager thread start.
+2015-11-22 13:53:04.670081 [INF] [0x1ca0] |  reactor manager thread start.
+2015-11-22 13:53:04.670081 [DBG] [0x0b00] |  init rtsp client success.
+2015-11-22 16:08:56.733538 [EMR] [0x053c] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4584]
+2015-11-22 16:08:56.799944 [INF] [0x165c] |  reactor manager thread start.
+2015-11-22 16:08:56.801897 [INF] [0x1abc] |  reactor manager thread start.
+2015-11-22 16:08:56.801897 [INF] [0x053c] |  create reactor manager thred success.
+2015-11-22 16:08:56.801897 [INF] [0x053c] |  open reactor manager success.
+2015-11-22 16:08:56.801897 [DBG] [0x053c] |  init rtsp client success.
+2015-11-22 16:08:56.802874 [INF] [0x1c14] |  reactor manager thread start.
+2015-11-22 16:08:56.804827 [INF] [0x1aac] |  reactor manager thread start.
+2015-11-22 16:08:56.806780 [INF] [0x1538] |  reactor manager thread start.
+2015-11-22 16:13:52.572441 [EMR] [0x10bc] |  
+==========[IVS_rtsp]System start running=========,ProcessID[5848]
+2015-11-22 16:13:52.588066 [INF] [0x0674] |  reactor manager thread start.
+2015-11-22 16:13:52.588066 [INF] [0x14e0] |  reactor manager thread start.
+2015-11-22 16:13:52.588066 [INF] [0x01dc] |  reactor manager thread start.
+2015-11-22 16:13:52.588066 [INF] [0x10bc] |  create reactor manager thred success.
+2015-11-22 16:13:52.588066 [INF] [0x10bc] |  open reactor manager success.
+2015-11-22 16:13:52.588066 [INF] [0x0d90] |  reactor manager thread start.
+2015-11-22 16:13:52.588066 [INF] [0x14d4] |  reactor manager thread start.
+2015-11-22 16:13:52.588066 [DBG] [0x10bc] |  init rtsp client success.
+2015-11-22 16:14:35.720612 [EMR] [0x1e10] |  
+==========[IVS_rtsp]System start running=========,ProcessID[7904]
+2015-11-22 16:14:35.736081 [INF] [0x14d8] |  reactor manager thread start.
+2015-11-22 16:14:35.736081 [INF] [0x0378] |  reactor manager thread start.
+2015-11-22 16:14:35.736081 [INF] [0x1d84] |  reactor manager thread start.
+2015-11-22 16:14:35.736081 [INF] [0x1e10] |  create reactor manager thred success.
+2015-11-22 16:14:35.736081 [INF] [0x1e10] |  open reactor manager success.
+2015-11-22 16:14:35.736081 [INF] [0x0f48] |  reactor manager thread start.
+2015-11-22 16:14:35.736081 [INF] [0x1e1c] |  reactor manager thread start.
+2015-11-22 16:14:35.736081 [DBG] [0x1e10] |  init rtsp client success.
+2015-11-22 16:21:21.149562 [EMR] [0x1928] |  
+==========[IVS_rtsp]System start running=========,ProcessID[1368]
+2015-11-22 16:21:21.195460 [INF] [0x1bf4] |  reactor manager thread start.
+2015-11-22 16:21:21.196437 [INF] [0x0940] |  reactor manager thread start.
+2015-11-22 16:21:21.197413 [INF] [0x123c] |  reactor manager thread start.
+2015-11-22 16:21:21.198390 [INF] [0x1634] |  reactor manager thread start.
+2015-11-22 16:21:21.198390 [INF] [0x1928] |  create reactor manager thred success.
+2015-11-22 16:21:21.199366 [INF] [0x1928] |  open reactor manager success.
+2015-11-22 16:21:21.199366 [INF] [0x16f0] |  reactor manager thread start.
+2015-11-22 16:21:21.199366 [DBG] [0x1928] |  init rtsp client success.
+2015-11-22 16:25:14.484424 [EMR] [0x1730] |  
+==========[IVS_rtsp]System start running=========,ProcessID[6528]
+2015-11-22 16:25:14.602588 [INF] [0x083c] |  reactor manager thread start.
+2015-11-22 16:25:14.609424 [INF] [0x0de4] |  reactor manager thread start.
+2015-11-22 16:25:14.614307 [INF] [0x1730] |  create reactor manager thred success.
+2015-11-22 16:25:14.614307 [INF] [0x1730] |  open reactor manager success.
+2015-11-22 16:25:14.643604 [INF] [0x19c4] |  reactor manager thread start.
+2015-11-22 16:25:14.643604 [DBG] [0x1730] |  init rtsp client success.
+2015-11-22 16:25:14.655322 [INF] [0x1900] |  reactor manager thread start.
+2015-11-22 16:25:14.692432 [INF] [0x1758] |  reactor manager thread start.
+2015-11-22 16:26:56.146402 [EMR] [0x1928] |  
+==========[IVS_rtsp]System start running=========,ProcessID[5360]
+2015-11-22 16:26:56.204306 [INF] [0x17ec] |  reactor manager thread start.
+2015-11-22 16:26:56.204306 [INF] [0x1ce4] |  reactor manager thread start.
+2015-11-22 16:26:56.205359 [INF] [0x19d4] |  reactor manager thread start.
+2015-11-22 16:26:56.206412 [INF] [0x1f68] |  reactor manager thread start.
+2015-11-22 16:26:56.206412 [INF] [0x1928] |  create reactor manager thred success.
+2015-11-22 16:26:56.206412 [INF] [0x1928] |  open reactor manager success.
+2015-11-22 16:26:56.207465 [INF] [0x130c] |  reactor manager thread start.
+2015-11-22 16:26:56.207465 [DBG] [0x1928] |  init rtsp client success.
+2015-11-22 16:27:56.165868 [EMR] [0x1c28] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4636]
+2015-11-22 16:27:56.181493 [INF] [0x1350] |  reactor manager thread start.
+2015-11-22 16:27:56.181493 [INF] [0x1d68] |  reactor manager thread start.
+2015-11-22 16:27:56.181493 [INF] [0x1c28] |  create reactor manager thred success.
+2015-11-22 16:27:56.181493 [INF] [0x1c28] |  open reactor manager success.
+2015-11-22 16:27:56.181493 [INF] [0x1758] |  reactor manager thread start.
+2015-11-22 16:27:56.181493 [INF] [0x1a8c] |  reactor manager thread start.
+2015-11-22 16:27:56.181493 [INF] [0x12d8] |  reactor manager thread start.
+2015-11-22 16:27:56.181493 [DBG] [0x1c28] |  init rtsp client success.
+2015-11-22 16:30:47.752606 [EMR] [0x1008] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4636]
+2015-11-22 16:30:47.767170 [INF] [0x0b4c] |  reactor manager thread start.
+2015-11-22 16:30:47.767170 [INF] [0x1ac4] |  reactor manager thread start.
+2015-11-22 16:30:47.767170 [INF] [0x14d4] |  reactor manager thread start.
+2015-11-22 16:30:47.767170 [INF] [0x119c] |  reactor manager thread start.
+2015-11-22 16:30:47.767170 [INF] [0x1008] |  create reactor manager thred success.
+2015-11-22 16:30:47.767170 [INF] [0x1008] |  open reactor manager success.
+2015-11-22 16:30:47.767170 [INF] [0x19cc] |  reactor manager thread start.
+2015-11-22 16:30:47.767170 [DBG] [0x1008] |  init rtsp client success.
+2015-11-22 16:34:56.928088 [EMR] [0x09e8] |  
+==========[IVS_rtsp]System start running=========,ProcessID[5904]
+2015-11-22 16:34:56.943713 [INF] [0x1a44] |  reactor manager thread start.
+2015-11-22 16:34:56.943713 [INF] [0x123c] |  reactor manager thread start.
+2015-11-22 16:34:56.943713 [INF] [0x14f4] |  reactor manager thread start.
+2015-11-22 16:34:56.943713 [INF] [0x09e8] |  create reactor manager thred success.
+2015-11-22 16:34:56.943713 [INF] [0x09e8] |  open reactor manager success.
+2015-11-22 16:34:56.943713 [DBG] [0x09e8] |  init rtsp client success.
+2015-11-22 16:34:56.959338 [INF] [0x0d5c] |  reactor manager thread start.
+2015-11-22 16:34:56.959338 [INF] [0x1014] |  reactor manager thread start.
+2015-11-22 16:35:40.669299 [EMR] [0x0b60] |  
+==========[IVS_rtsp]System start running=========,ProcessID[7948]
+2015-11-22 16:35:40.684924 [INF] [0x1eb4] |  reactor manager thread start.
+2015-11-22 16:35:40.684924 [INF] [0x0498] |  reactor manager thread start.
+2015-11-22 16:35:40.684924 [INF] [0x0b60] |  create reactor manager thred success.
+2015-11-22 16:35:40.684924 [INF] [0x0b60] |  open reactor manager success.
+2015-11-22 16:35:40.684924 [DBG] [0x0b60] |  init rtsp client success.
+2015-11-22 16:35:40.684924 [INF] [0x1ca4] |  reactor manager thread start.
+2015-11-22 16:35:40.700549 [INF] [0x1f74] |  reactor manager thread start.
+2015-11-22 16:35:40.700549 [INF] [0x1d64] |  reactor manager thread start.
+2015-11-22 16:37:12.347033 [EMR] [0x09bc] |  
+==========[IVS_rtsp]System start running=========,ProcessID[7316]
+2015-11-22 16:37:12.347033 [INF] [0x14c4] |  reactor manager thread start.
+2015-11-22 16:37:12.347033 [INF] [0x1f84] |  reactor manager thread start.
+2015-11-22 16:37:12.347033 [INF] [0x09bc] |  create reactor manager thred success.
+2015-11-22 16:37:12.347033 [INF] [0x09bc] |  open reactor manager success.
+2015-11-22 16:37:12.347033 [DBG] [0x09bc] |  init rtsp client success.
+2015-11-22 16:37:12.362658 [INF] [0x09c4] |  reactor manager thread start.
+2015-11-22 16:37:12.362658 [INF] [0x1a7c] |  reactor manager thread start.
+2015-11-22 16:37:12.362658 [INF] [0x1b68] |  reactor manager thread start.
+2015-11-22 16:37:44.973382 [DBG] [0x09bc] |  set Exception Call Back function success.
+2015-11-22 16:39:13.933356 [EMR] [0x1178] |  
+==========[IVS_rtsp]System start running=========,ProcessID[2944]
+2015-11-22 16:39:13.951910 [INF] [0x04b4] |  reactor manager thread start.
+2015-11-22 16:39:13.951910 [INF] [0x12f4] |  reactor manager thread start.
+2015-11-22 16:39:13.951910 [INF] [0x1138] |  reactor manager thread start.
+2015-11-22 16:39:13.951910 [INF] [0x1178] |  create reactor manager thred success.
+2015-11-22 16:39:13.951910 [INF] [0x16f0] |  reactor manager thread start.
+2015-11-22 16:39:13.951910 [INF] [0x1178] |  open reactor manager success.
+2015-11-22 16:39:13.952887 [DBG] [0x1178] |  init rtsp client success.
+2015-11-22 16:39:13.973395 [INF] [0x1e74] |  reactor manager thread start.
+2015-11-22 16:39:20.898199 [DBG] [0x1178] |  set Exception Call Back function success.
+2015-11-22 17:16:44.758361 [EMR] [0x1b80] |  
+==========[IVS_rtsp]System start running=========,ProcessID[3804]
+2015-11-22 17:16:44.773986 [INF] [0x04cc] |  reactor manager thread start.
+2015-11-22 17:16:44.773986 [INF] [0x1f74] |  reactor manager thread start.
+2015-11-22 17:16:44.773986 [INF] [0x083c] |  reactor manager thread start.
+2015-11-22 17:16:44.773986 [INF] [0x1b80] |  create reactor manager thred success.
+2015-11-22 17:16:44.773986 [INF] [0x1b80] |  open reactor manager success.
+2015-11-22 17:16:44.773986 [DBG] [0x1b80] |  init rtsp client success.
+2015-11-22 17:16:44.789611 [INF] [0x1b50] |  reactor manager thread start.
+2015-11-22 17:16:44.789611 [INF] [0x095c] |  reactor manager thread start.
+2015-11-22 17:16:46.435119 [DBG] [0x1b80] |  set Exception Call Back function success.
+2015-11-22 17:16:56.562072 [EMR] [0x1b20] |  
+==========[IVS_rtsp]System start running=========,ProcessID[5208]
+2015-11-22 17:16:56.655822 [INF] [0x19b8] |  reactor manager thread start.
+2015-11-22 17:16:56.657775 [INF] [0x1b64] |  reactor manager thread start.
+2015-11-22 17:16:56.666564 [INF] [0x1b58] |  reactor manager thread start.
+2015-11-22 17:16:56.666564 [INF] [0x19f4] |  reactor manager thread start.
+2015-11-22 17:16:56.657775 [INF] [0x1b20] |  create reactor manager thred success.
+2015-11-22 17:16:56.666564 [INF] [0x1b20] |  open reactor manager success.
+2015-11-22 17:16:56.659728 [INF] [0x1c34] |  reactor manager thread start.
+2015-11-22 17:16:56.666564 [DBG] [0x1b20] |  init rtsp client success.
+2015-11-22 17:16:58.731994 [DBG] [0x1b20] |  set Exception Call Back function success.
+2015-11-22 17:18:04.837462 [EMR] [0x1a24] |  
+==========[IVS_rtsp]System start running=========,ProcessID[4664]
+2015-11-22 17:18:04.888244 [INF] [0x0628] |  reactor manager thread start.
+2015-11-22 17:18:04.891173 [INF] [0x0af0] |  reactor manager thread start.
+2015-11-22 17:18:04.891173 [INF] [0x1a24] |  create reactor manager thred success.
+2015-11-22 17:18:04.892150 [INF] [0x1a24] |  open reactor manager success.
+2015-11-22 17:18:04.892150 [DBG] [0x1a24] |  init rtsp client success.
+2015-11-22 17:18:04.892150 [INF] [0x0f50] |  reactor manager thread start.
+2015-11-22 17:18:04.893127 [INF] [0x0d88] |  reactor manager thread start.
+2015-11-22 17:18:04.893127 [INF] [0x0d1c] |  reactor manager thread start.
+2015-11-22 17:18:06.118712 [DBG] [0x1a24] |  set Exception Call Back function success.
+2015-11-22 17:23:11.983531 [EMR] [0x12ec] |  
+==========[IVS_rtsp]System start running=========,ProcessID[1172]
+2015-11-22 17:23:11.999156 [INF] [0x1f04] |  reactor manager thread start.
+2015-11-22 17:23:11.999156 [INF] [0x1d14] |  reactor manager thread start.
+2015-11-22 17:23:11.999156 [INF] [0x1a8c] |  reactor manager thread start.
+2015-11-22 17:23:11.999156 [INF] [0x1714] |  reactor manager thread start.
+2015-11-22 17:23:11.999156 [INF] [0x12ec] |  create reactor manager thred success.
+2015-11-22 17:23:11.999156 [INF] [0x12ec] |  open reactor manager success.
+2015-11-22 17:23:11.999156 [INF] [0x17a0] |  reactor manager thread start.
+2015-11-22 17:23:11.999156 [DBG] [0x12ec] |  init rtsp client success.
+2015-11-22 17:23:16.090953 [DBG] [0x12ec] |  set Exception Call Back function success.
+2015-11-22 17:23:46.252086 [EMR] [0x1f40] |  
+==========[IVS_rtsp]System start running=========,ProcessID[7508]
+2015-11-22 17:23:46.267711 [INF] [0x0d1c] |  reactor manager thread start.
+2015-11-22 17:23:46.267711 [INF] [0x0af0] |  reactor manager thread start.
+2015-11-22 17:23:46.267711 [INF] [0x1f40] |  create reactor manager thred success.
+2015-11-22 17:23:46.267711 [INF] [0x1f40] |  open reactor manager success.
+2015-11-22 17:23:46.267711 [INF] [0x0d88] |  reactor manager thread start.
+2015-11-22 17:23:46.267711 [INF] [0x0f50] |  reactor manager thread start.
+2015-11-22 17:23:46.267711 [DBG] [0x1f40] |  init rtsp client success.
+2015-11-22 17:23:46.283336 [INF] [0x1978] |  reactor manager thread start.
+2015-11-22 17:23:49.074351 [DBG] [0x1f40] |  set Exception Call Back function success.
+2015-11-22 17:28:25.319041 [EMR] [0x1e10] |  
+==========[IVS_rtsp]System start running=========,ProcessID[2816]
+2015-11-22 17:28:25.332963 [INF] [0x1778] |  reactor manager thread start.
+2015-11-22 17:28:25.332963 [INF] [0x1e10] |  create reactor manager thred success.
+2015-11-22 17:28:25.332963 [INF] [0x1e10] |  open reactor manager success.
+2015-11-22 17:28:25.332963 [DBG] [0x1e10] |  init rtsp client success.
+2015-11-22 17:28:25.332963 [INF] [0x10cc] |  reactor manager thread start.
+2015-11-22 17:28:25.346885 [INF] [0x0cd4] |  reactor manager thread start.
+2015-11-22 17:28:25.346885 [INF] [0x1574] |  reactor manager thread start.
+2015-11-22 17:28:25.346885 [INF] [0x1a54] |  reactor manager thread start.
+2015-11-22 17:28:28.278253 [DBG] [0x1e10] |  set Exception Call Back function success.
+2015-11-22 17:29:54.669233 [EMR] [0x0b28] |  
+==========[IVS_rtsp]System start running=========,ProcessID[6796]
+2015-11-22 17:29:54.684547 [INF] [0x08f0] |  reactor manager thread start.
+2015-11-22 17:29:54.684547 [INF] [0x1618] |  reactor manager thread start.
+2015-11-22 17:29:54.684547 [INF] [0x1918] |  reactor manager thread start.
+2015-11-22 17:29:54.684547 [INF] [0x0b28] |  create reactor manager thred success.
+2015-11-22 17:29:54.684547 [INF] [0x0b28] |  open reactor manager success.
+2015-11-22 17:29:54.684547 [DBG] [0x0b28] |  init rtsp client success.
+2015-11-22 17:29:54.684547 [INF] [0x0bfc] |  reactor manager thread start.
+2015-11-22 17:29:54.699862 [INF] [0x1c20] |  reactor manager thread start.
+2015-11-22 17:29:56.451355 [DBG] [0x0b28] |  set Exception Call Back function success.
+2015-11-22 17:31:51.427431 [EMR] [0x10fc] |  
+==========[IVS_rtsp]System start running=========,ProcessID[3976]
+2015-11-22 17:31:51.442079 [INF] [0x16c8] |  reactor manager thread start.
+2015-11-22 17:31:51.442079 [INF] [0x0f1c] |  reactor manager thread start.
+2015-11-22 17:31:51.443056 [INF] [0x10fc] |  create reactor manager thred success.
+2015-11-22 17:31:51.443056 [INF] [0x10fc] |  open reactor manager success.
+2015-11-22 17:31:51.443056 [INF] [0x1c5c] |  reactor manager thread start.
+2015-11-22 17:31:51.443056 [DBG] [0x10fc] |  init rtsp client success.
+2015-11-22 17:31:51.443056 [INF] [0x14e8] |  reactor manager thread start.
+2015-11-22 17:31:51.443056 [INF] [0x1c10] |  reactor manager thread start.
+2015-11-22 17:31:54.477235 [DBG] [0x10fc] |  set Exception Call Back function success.
+2015-11-22 17:33:39.518568 [EMR] [0x1174] |  
+==========[IVS_rtsp]System start running=========,ProcessID[2488]
+2015-11-22 17:33:39.534193 [INF] [0x1d84] |  reactor manager thread start.
+2015-11-22 17:33:39.534193 [INF] [0x162c] |  reactor manager thread start.
+2015-11-22 17:33:39.534193 [INF] [0x1708] |  reactor manager thread start.
+2015-11-22 17:33:39.534193 [INF] [0x1174] |  create reactor manager thred success.
+2015-11-22 17:33:39.534193 [INF] [0x1174] |  open reactor manager success.
+2015-11-22 17:33:39.534193 [INF] [0x1524] |  reactor manager thread start.
+2015-11-22 17:33:39.534193 [DBG] [0x1174] |  init rtsp client success.
+2015-11-22 17:33:39.549818 [INF] [0x1464] |  reactor manager thread start.
+2015-11-22 17:33:42.109388 [DBG] [0x1174] |  set Exception Call Back function success.
+2015-11-22 17:33:42.250013 [CRI] [0x1174] |  createRtspSession this = 08747660 m_pRecvBuffer = 087489f0
+2015-11-22 17:33:42.250013 [DBG] [0x1174] |  get session handle success, mode[1], handle[08747660].
+2015-11-22 17:33:42.251966 [INF] [0x1174] |  Connect to [172.17.101.2:554] success, local port[10370].
+2015-11-22 17:33:42.251966 [CRI] [0x1174] |  in RegistHandle.
+2015-11-22 17:33:42.252943 [INF] [0x1174] |  CRtspReactorManager::svc push Session[141850208] to list.
+2015-11-22 17:33:42.252943 [INF] [0x1174] |  connect peer success, remote address [172.17.101.2:554], handle[08747660].
+2015-11-22 17:33:42.252943 [INF] [0x1174] |  try to send message, len[366]:
+SETUP rtsp://172.17.101.2:554/05523330000000000101?DstCode=01&ServiceType=1&ClientType=0&StreamID=1&SrcTP=2&DstTP=1&SrcPP=1&DstPP=1&MediaTransMode=0&BroadcastType=0&Token=hgYlhbtyMz65Wby8XB1IoH1Uw1gIzfof&DomainCode=b6bfedbd2bb84861913ac25d21d88241&UserId=13& RTSP/1.0
+Transport: RTP/AVP;unicast;destination=10.0.2.15;client_port=35000-35001,35002-35003
+CSeq: 1
+
+2015-11-22 17:33:42.252943 [INF] [0x1174] |  send msg to [172.17.101.2:554] success, len[366].
+2015-11-22 17:33:42.252943 [INF] [0x1174] |  sendMessage [172.17.101.2:554] success.
+2015-11-22 17:33:42.252943 [INF] [0x1174] |  sendSetupMessage succeed, remote address [172.17.101.2:554], handle[08747660].
+2015-11-22 17:33:42.261732 [WAR] [0x1d84] |  parseRtspPacket in.
+2015-11-22 17:33:42.261732 [DBG] [0x1d84] |  decode transport success, serverIP[172.17.101.2], Video Port[30236], Audio Port[30234].
+2015-11-22 17:33:42.261732 [DBG] [0x1d84] |  start decode rtsp message, len[277]:
+RTSP/1.0 200 OK
+CSeq: 1
+Session: 534d7668917111e58000845b1230954e
+Date: Sun Nov 22 23:32:41 2015 GMT
+Server: HUAWEI MDU/R002C02
+Transport: RTP/AVP;unicast;destination=10.0.2.15;client_port=35000-35001,35002-35003;source=172.17.101.2;server_port=30236-30237,30234-30235
+
+2015-11-22 17:33:42.261732 [INF] [0x1d84] |  handle rtsp response message, CSeq[1], ret[0].
+2015-11-22 17:33:42.261732 [DBG] [0x1d84] |  set status from [0] to [1].
+2015-11-22 17:33:42.261732 [WAR] [0x1d84] |  parseRtspPacket out 2.
+2015-11-22 17:33:42.261732 [INF] [0x1174] |  delete Rtsp message success.
+2015-11-22 17:33:42.261732 [DBG] [0x1174] |  set status from [1] to [1].
+2015-11-22 17:33:42.261732 [INF] [0x1174] |  send setup message success, handle[08747660].
+2015-11-22 17:33:42.262709 [WAR] [0x1d84] |  parseRtspPacket in.
+2015-11-22 17:33:42.262709 [DBG] [0x1d84] |  start decode rtsp message:
+ANNOUNCE  RTSP/1.0
+CSeq: 0
+User-Agent: HUAWEI MDU/R002C02
+Content-Length: 244
+Content-Type: text/parameters
+
+v=0
+o=05523330000000000101 1448070878 1448070878 IN IP4 172.17.120.108
+s=Unnamed
+t=0 0
+c=IN IP4 127.0.0.1
+m=video 0 RTP/AVP 99
+a=rtpmap:99 H264/90000
+a=control:trackID=1
+m=audio 0 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+a=control:trackID=2
+
+2015-11-22 17:33:42.262709 [DBG] [0x1d84] |  get content result:v=0
+o=05523330000000000101 1448070878 1448070878 IN IP4 172.17.120.108
+s=Unnamed
+t=0 0
+c=IN IP4 127.0.0.1
+m=video 0 RTP/AVP 99
+a=rtpmap:99 H264/90000
+a=control:trackID=1
+m=audio 0 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+a=control:trackID=2
+
+.
+2015-11-22 17:33:42.262709 [DBG] [0x1d84] |  success to encode common response.
+RTSP/1.0 200 OK
+CSeq: 0
+Content-Length: 0
+Session: 1
+
+2015-11-22 17:33:42.262709 [INF] [0x1d84] |  try to send message, len[59]:
+RTSP/1.0 200 OK
+CSeq: 0
+Content-Length: 0
+Session: 1
+
+2015-11-22 17:33:42.262709 [INF] [0x1d84] |  send msg to [172.17.101.2:554] success, len[59].
+2015-11-22 17:33:42.262709 [INF] [0x1d84] |  sendMessage [172.17.101.2:554] success.
+2015-11-22 17:33:42.264662 [WAR] [0x1d84] |  parseRtspPacket out.
+2015-11-22 17:33:42.277357 [INF] [0x1174] |  try to send message, len[305]:
+PLAY rtsp://172.17.101.2:554/05523330000000000101?DstCode=01&ServiceType=1&ClientType=0&StreamID=1&SrcTP=2&DstTP=1&SrcPP=1&DstPP=1&MediaTransMode=0&BroadcastType=0&Token=hgYlhbtyMz65Wby8XB1IoH1Uw1gIzfof&DomainCode=b6bfedbd2bb84861913ac25d21d88241&UserId=13& RTSP/1.0
+Scale: 1
+Range: npt=0-0
+CSeq: 2
+
+2015-11-22 17:33:42.278334 [INF] [0x1174] |  send msg to [172.17.101.2:554] success, len[305].
+2015-11-22 17:33:42.278334 [INF] [0x1174] |  sendMessage [172.17.101.2:554] success.
+2015-11-22 17:33:42.308607 [WAR] [0x1d84] |  parseRtspPacket in.
+2015-11-22 17:33:42.308607 [DBG] [0x1d84] |  start decode rtsp message, len[71]:
+RTSP/1.0 200 OK
+CSeq: 2
+Session: 534d7668917111e58000845b1230954e
+
+2015-11-22 17:33:42.308607 [INF] [0x1d84] |  handle rtsp response message, CSeq[2], ret[0].
+2015-11-22 17:33:42.308607 [INF] [0x1d84] |  delete Rtsp message success.
+2015-11-22 17:33:42.308607 [DBG] [0x1d84] |  set status from [1] to [2].
+2015-11-22 17:33:42.308607 [WAR] [0x1d84] |  parseRtspPacket out 2.
+2015-11-22 17:33:42.308607 [DBG] [0x1174] |  register RTP receive timer success.
+2015-11-22 17:33:42.308607 [DBG] [0x1174] |  send play message success, handle[08747660].

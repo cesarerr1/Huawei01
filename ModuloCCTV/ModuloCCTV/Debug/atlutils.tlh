@@ -1,0 +1,182 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.23026.0 (593d7308).
+//
+// c:\users\alex\documents\visual studio 2015\projects\modulocctv\modulocctv\debug\atlutils.tlh
+//
+// C++ source equivalent of Win32 type library ..\logger\ATLUtils.exe
+// compiler-generated file created 11/22/15 at 12:32:39 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace ATLUTILSLib {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("c1049c3a-23ee-4a5d-a152-377a048ae2bc"))
+/* LIBID */ __ATLUTILSLib;
+struct /* coclass */ Logger;
+struct __declspec(uuid("a7714761-32c9-44e4-80a8-78b159d61e63"))
+/* dual interface */ ILogger;
+enum LEVEL;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ILogger, __uuidof(ILogger));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("6e6a2249-f80d-4948-b668-6b225061099f"))
+Logger;
+    // [ default ] interface ILogger
+
+enum LEVEL
+{
+    LEVEL_ALL = 0,
+    LEVEL_FINEST = 1,
+    LEVEL_FINER = 2,
+    LEVEL_FINE = 3,
+    LEVEL_CONFIG = 4,
+    LEVEL_INFO = 5,
+    LEVEL_WARNING = 6,
+    LEVEL_SEVERE = 7,
+    LEVEL_OFF = 8
+};
+
+struct __declspec(uuid("a7714761-32c9-44e4-80a8-78b159d61e63"))
+ILogger : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT Log (
+        enum LEVEL msgLevel,
+        const _variant_t & message,
+        const _variant_t & sourceFile,
+        unsigned int sourceLine,
+        long timeStamp,
+        unsigned long threadID,
+        unsigned long processID );
+    HRESULT AddNewDatabaseLogLocation (
+        long customizeVisualy,
+        unsigned long ownerProcessID,
+        enum LEVEL loggingLevel,
+        unsigned long * locationID,
+        const _variant_t & connectingString,
+        const _variant_t & tableName,
+        const _variant_t & levelCol,
+        const _variant_t & timeCol,
+        const _variant_t & sequenceNumberCol,
+        const _variant_t & sourceFileCol,
+        const _variant_t & sourceLineCol,
+        const _variant_t & threadIdCol,
+        const _variant_t & processIdCol,
+        const _variant_t & messageCol );
+    HRESULT AddNewWindowLogLocation (
+        long customizeVisualy,
+        unsigned long ownerProcessID,
+        enum LEVEL loggingLevel,
+        unsigned long * locationID,
+        const _variant_t & windowTitle,
+        unsigned long maxRecords,
+        long alwaysOnTop,
+        long autoScroll );
+    HRESULT AddNewFileLogLocation (
+        long customizeVisualy,
+        unsigned long ownerProcessID,
+        enum LEVEL loggingLevel,
+        unsigned long * locationID,
+        const _variant_t & fileName,
+        long maxSize,
+        int allowRead,
+        int allowWrite,
+        int rotate );
+    HRESULT GetLocationLevel (
+        unsigned long locationID,
+        enum LEVEL * loggingLevel );
+    HRESULT SetLocationLevel (
+        unsigned long locationID,
+        enum LEVEL loggingLevel );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Log (
+        enum LEVEL msgLevel,
+        VARIANT message,
+        VARIANT sourceFile,
+        unsigned int sourceLine,
+        long timeStamp,
+        unsigned long threadID,
+        unsigned long processID ) = 0;
+      virtual HRESULT __stdcall raw_AddNewDatabaseLogLocation (
+        long customizeVisualy,
+        unsigned long ownerProcessID,
+        enum LEVEL loggingLevel,
+        unsigned long * locationID,
+        VARIANT connectingString,
+        VARIANT tableName,
+        VARIANT levelCol,
+        VARIANT timeCol,
+        VARIANT sequenceNumberCol,
+        VARIANT sourceFileCol,
+        VARIANT sourceLineCol,
+        VARIANT threadIdCol,
+        VARIANT processIdCol,
+        VARIANT messageCol ) = 0;
+      virtual HRESULT __stdcall raw_AddNewWindowLogLocation (
+        long customizeVisualy,
+        unsigned long ownerProcessID,
+        enum LEVEL loggingLevel,
+        unsigned long * locationID,
+        VARIANT windowTitle,
+        unsigned long maxRecords,
+        long alwaysOnTop,
+        long autoScroll ) = 0;
+      virtual HRESULT __stdcall raw_AddNewFileLogLocation (
+        long customizeVisualy,
+        unsigned long ownerProcessID,
+        enum LEVEL loggingLevel,
+        unsigned long * locationID,
+        VARIANT fileName,
+        long maxSize,
+        int allowRead,
+        int allowWrite,
+        int rotate ) = 0;
+      virtual HRESULT __stdcall raw_GetLocationLevel (
+        unsigned long locationID,
+        enum LEVEL * loggingLevel ) = 0;
+      virtual HRESULT __stdcall raw_SetLocationLevel (
+        unsigned long locationID,
+        enum LEVEL loggingLevel ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_ATLUTILSLib =
+    {0xc1049c3a,0x23ee,0x4a5d,{0xa1,0x52,0x37,0x7a,0x04,0x8a,0xe2,0xbc}};
+extern "C" const GUID __declspec(selectany) CLSID_Logger =
+    {0x6e6a2249,0xf80d,0x4948,{0xb6,0x68,0x6b,0x22,0x50,0x61,0x09,0x9f}};
+extern "C" const GUID __declspec(selectany) IID_ILogger =
+    {0xa7714761,0x32c9,0x44e4,{0x80,0xa8,0x78,0xb1,0x59,0xd6,0x1e,0x63}};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\users\alex\documents\visual studio 2015\projects\modulocctv\modulocctv\debug\atlutils.tli"
+
+} // namespace ATLUTILSLib
+
+#pragma pack(pop)

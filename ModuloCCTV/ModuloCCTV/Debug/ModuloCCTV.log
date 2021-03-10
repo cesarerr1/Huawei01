@@ -1,0 +1,15 @@
+﻿Compilación iniciada a las 11/22/2015 5:33:34 PM.
+     1>Proyecto "C:\Users\Alex\Documents\Visual Studio 2015\Projects\ModuloCCTV\ModuloCCTV\ModuloCCTV.vcxproj" en el nodo 2 (Build destinos).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Documents\Visual Studio 2015\Projects\ModuloCCTV\Debug\ModuloCCTV.exe" /INCREMENTAL /NOLOGO IVS_SDK.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"C:\Users\Alex\Documents\Visual Studio 2015\Projects\ModuloCCTV\Debug\ModuloCCTV.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Documents\Visual Studio 2015\Projects\ModuloCCTV\Debug\ModuloCCTV.lib" /MACHINE:X86 Debug\ModuloCCTV.res
+         Debug\ivs_ocxplayerctrlmain.obj
+         Debug\Logger.obj
+         Debug\ModuloCCTV.obj
+         Debug\ModuloCCTVDlg.obj
+         Debug\stdafx.obj
+         ModuloCCTV.vcxproj -> C:\Users\Alex\Documents\Visual Studio 2015\Projects\ModuloCCTV\Debug\ModuloCCTV.exe
+     1>Compilación del proyecto terminada "C:\Users\Alex\Documents\Visual Studio 2015\Projects\ModuloCCTV\ModuloCCTV\ModuloCCTV.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.78

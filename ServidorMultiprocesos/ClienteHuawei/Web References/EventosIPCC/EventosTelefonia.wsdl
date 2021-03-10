@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sch="http://integracion.promad.esb/telefonia/eventos" xmlns:tns="http://integracion.promad.esb/telefonia/eventos" targetNamespace="http://integracion.promad.esb/telefonia/eventos" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:s="http://integracion.promad.esb/telefonia/eventos" xmlns:e="http://integracion.promad.esb/telefonia/esquemas" elementFormDefault="qualified" targetNamespace="http://integracion.promad.esb/telefonia/eventos" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:import schemaLocation="telefonia-esquemas-servlet.xsd" namespace="http://integracion.promad.esb/telefonia/esquemas" />
+      <xs:element name="registraRecepcionLlamadaRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asociacionAgente" type="e:asociacionAgente" />
+            <xs:element name="uniqueId" type="xs:string" />
+            <xs:element name="callerId" type="xs:string" />
+            <xs:element name="canal" type="xs:string" />
+            <xs:element name="coordX" type="xs:string" />
+            <xs:element name="coordY" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraRecepcionLlamadaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+            <xs:element name="uniqueID" type="xs:long" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraAtencionLlamadaRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asociacionAgente" type="e:asociacionAgente" />
+            <xs:element name="uniqueId" type="xs:string" />
+            <xs:element name="callerId" type="xs:string" />
+            <xs:element name="canal" type="xs:string" />
+            <xs:element name="nombreArchivo" type="xs:string" />
+            <xs:element name="urlArchivo" type="xs:string" />
+            <xs:element name="coordX" type="xs:string" />
+            <xs:element name="coordY" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraAtencionLlamadaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="cambioEstadoAgenteRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asociacionAgente" type="e:asociacionAgente" />
+            <xs:element name="disponibilidad" type="s:EnumDisponibilidad" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="cambioEstadoAgenteResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraTiempoDuracionRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="asociacionAgente" type="e:asociacionAgente" />
+            <xs:element name="uniqueId" type="xs:string" />
+            <xs:element name="tiempoDuracion" type="xs:integer" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraTiempoDuracionResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaAbandonadaRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="idTelefonia" type="xs:string" />
+            <xs:element name="callerId" type="xs:string" />
+            <xs:element name="tiempoAbandono" type="xs:integer" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaAbandonadaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaColgadaRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="idTelefonia" type="xs:string" />
+            <xs:element name="callerId" type="xs:string" />
+            <xs:element name="tiempoAbandono" type="xs:integer" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaColgadaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaEsperaRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="idTelefonia" type="xs:string" />
+            <xs:element name="callerId" type="xs:string" />
+            <xs:element name="uniqueId" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaEsperaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaProcesoRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="linea" type="xs:string" />
+            <xs:element name="extension" type="xs:string" />
+            <xs:element name="callerId" type="xs:string" />
+            <xs:element name="uniqueId" type="xs:string" />
+            <xs:element name="fechaHora" type="xs:dateTime" />
+            <xs:element name="claseLlamada" type="s:EnumClaseLlamada" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaProcesoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaConcluidaRequest">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="uniqueId" type="xs:string" />
+            <xs:element name="fechaHora" type="xs:dateTime" />
+            <xs:element name="tiempoDuracion" type="xs:integer" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="registraLlamadaConcluidaResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="codigoError" type="xs:string" />
+            <xs:element name="descripcion" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:simpleType name="EnumDisponibilidad">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="DISPONIBLE" />
+          <xs:enumeration value="NO_DISPONIBLE" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="EnumClaseLlamada">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="IN" />
+          <xs:enumeration value="OUT" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="registraAtencionLlamadaRequest">
+    <wsdl:part name="registraAtencionLlamadaRequest" element="tns:registraAtencionLlamadaRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraTiempoDuracionRequest">
+    <wsdl:part name="registraTiempoDuracionRequest" element="tns:registraTiempoDuracionRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaProcesoResponse">
+    <wsdl:part name="registraLlamadaProcesoResponse" element="tns:registraLlamadaProcesoResponse" />
+  </wsdl:message>
+  <wsdl:message name="registraRecepcionLlamadaResponse">
+    <wsdl:part name="registraRecepcionLlamadaResponse" element="tns:registraRecepcionLlamadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaAbandonadaResponse">
+    <wsdl:part name="registraLlamadaAbandonadaResponse" element="tns:registraLlamadaAbandonadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaColgadaRequest">
+    <wsdl:part name="registraLlamadaColgadaRequest" element="tns:registraLlamadaColgadaRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaConcluidaResponse">
+    <wsdl:part name="registraLlamadaConcluidaResponse" element="tns:registraLlamadaConcluidaResponse" />
+  </wsdl:message>
+  <wsdl:message name="cambioEstadoAgenteResponse">
+    <wsdl:part name="cambioEstadoAgenteResponse" element="tns:cambioEstadoAgenteResponse" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaConcluidaRequest">
+    <wsdl:part name="registraLlamadaConcluidaRequest" element="tns:registraLlamadaConcluidaRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraTiempoDuracionResponse">
+    <wsdl:part name="registraTiempoDuracionResponse" element="tns:registraTiempoDuracionResponse" />
+  </wsdl:message>
+  <wsdl:message name="cambioEstadoAgenteRequest">
+    <wsdl:part name="cambioEstadoAgenteRequest" element="tns:cambioEstadoAgenteRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaColgadaResponse">
+    <wsdl:part name="registraLlamadaColgadaResponse" element="tns:registraLlamadaColgadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaProcesoRequest">
+    <wsdl:part name="registraLlamadaProcesoRequest" element="tns:registraLlamadaProcesoRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraAtencionLlamadaResponse">
+    <wsdl:part name="registraAtencionLlamadaResponse" element="tns:registraAtencionLlamadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaAbandonadaRequest">
+    <wsdl:part name="registraLlamadaAbandonadaRequest" element="tns:registraLlamadaAbandonadaRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaEsperaRequest">
+    <wsdl:part name="registraLlamadaEsperaRequest" element="tns:registraLlamadaEsperaRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraRecepcionLlamadaRequest">
+    <wsdl:part name="registraRecepcionLlamadaRequest" element="tns:registraRecepcionLlamadaRequest" />
+  </wsdl:message>
+  <wsdl:message name="registraLlamadaEsperaResponse">
+    <wsdl:part name="registraLlamadaEsperaResponse" element="tns:registraLlamadaEsperaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EventosTelefonia">
+    <wsdl:operation name="registraAtencionLlamada">
+      <wsdl:input name="registraAtencionLlamadaRequest" message="tns:registraAtencionLlamadaRequest" />
+      <wsdl:output name="registraAtencionLlamadaResponse" message="tns:registraAtencionLlamadaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraTiempoDuracion">
+      <wsdl:input name="registraTiempoDuracionRequest" message="tns:registraTiempoDuracionRequest" />
+      <wsdl:output name="registraTiempoDuracionResponse" message="tns:registraTiempoDuracionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaProceso">
+      <wsdl:input name="registraLlamadaProcesoRequest" message="tns:registraLlamadaProcesoRequest" />
+      <wsdl:output name="registraLlamadaProcesoResponse" message="tns:registraLlamadaProcesoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraRecepcionLlamada">
+      <wsdl:input name="registraRecepcionLlamadaRequest" message="tns:registraRecepcionLlamadaRequest" />
+      <wsdl:output name="registraRecepcionLlamadaResponse" message="tns:registraRecepcionLlamadaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaAbandonada">
+      <wsdl:input name="registraLlamadaAbandonadaRequest" message="tns:registraLlamadaAbandonadaRequest" />
+      <wsdl:output name="registraLlamadaAbandonadaResponse" message="tns:registraLlamadaAbandonadaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaColgada">
+      <wsdl:input name="registraLlamadaColgadaRequest" message="tns:registraLlamadaColgadaRequest" />
+      <wsdl:output name="registraLlamadaColgadaResponse" message="tns:registraLlamadaColgadaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaConcluida">
+      <wsdl:input name="registraLlamadaConcluidaRequest" message="tns:registraLlamadaConcluidaRequest" />
+      <wsdl:output name="registraLlamadaConcluidaResponse" message="tns:registraLlamadaConcluidaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cambioEstadoAgente">
+      <wsdl:input name="cambioEstadoAgenteRequest" message="tns:cambioEstadoAgenteRequest" />
+      <wsdl:output name="cambioEstadoAgenteResponse" message="tns:cambioEstadoAgenteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaEspera">
+      <wsdl:input name="registraLlamadaEsperaRequest" message="tns:registraLlamadaEsperaRequest" />
+      <wsdl:output name="registraLlamadaEsperaResponse" message="tns:registraLlamadaEsperaResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EventosTelefoniaSoap11" type="tns:EventosTelefonia">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="registraAtencionLlamada">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraAtencionLlamadaRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraAtencionLlamadaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraTiempoDuracion">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraTiempoDuracionRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraTiempoDuracionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaProceso">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraLlamadaProcesoRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraLlamadaProcesoResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraRecepcionLlamada">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraRecepcionLlamadaRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraRecepcionLlamadaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaAbandonada">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraLlamadaAbandonadaRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraLlamadaAbandonadaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaColgada">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraLlamadaColgadaRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraLlamadaColgadaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaConcluida">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraLlamadaConcluidaRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraLlamadaConcluidaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cambioEstadoAgente">
+      <soap:operation soapAction="" />
+      <wsdl:input name="cambioEstadoAgenteRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="cambioEstadoAgenteResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registraLlamadaEspera">
+      <soap:operation soapAction="" />
+      <wsdl:input name="registraLlamadaEsperaRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="registraLlamadaEsperaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EventosTelefoniaService">
+    <wsdl:port name="EventosTelefoniaSoap11" binding="tns:EventosTelefoniaSoap11">
+      <soap:address location="http://192.168.56.1:8080/ModuloIPCC/spring-ws/EventosTelefonia" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

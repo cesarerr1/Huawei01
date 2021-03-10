@@ -1,0 +1,12 @@
+server:
+  host: localhost
+  port: 8020
+  timeout: 3000
+ivs:
+  host: 172.17.101.2
+  usuario: promad
+  clave: Huawei123
+logs:
+  nivel: DEBUG
+  size: 10000000
+  numero: 5

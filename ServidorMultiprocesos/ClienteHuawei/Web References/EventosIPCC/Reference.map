@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://192.168.56.1:8080/ModuloIPCC/spring-ws/telefonia-esquemas-servlet.xsd" filename="telefonia-esquemas-servlet.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://192.168.56.1:8080/ModuloIPCC/spring-ws/EventosTelefonia.wsdl" filename="EventosTelefonia.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

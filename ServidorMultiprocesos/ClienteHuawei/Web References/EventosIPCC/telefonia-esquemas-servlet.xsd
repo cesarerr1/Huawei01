@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:s="http://integracion.promad.esb/telefonia/esquemas" elementFormDefault="qualified" targetNamespace="http://integracion.promad.esb/telefonia/esquemas" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="agente">
+    <xs:sequence>
+      <xs:element name="numeroAgente" type="xs:string" />
+      <xs:element name="numeroExtension" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="asociacionAgente">
+    <xs:sequence>
+      <xs:element name="numeroAgente" type="xs:string" />
+      <xs:element name="numeroExtension" type="xs:string" />
+      <xs:element name="ip" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="accionListaNegra">
+    <xs:sequence>
+      <xs:element name="idAccion" type="xs:string" />
+      <xs:element name="descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="numeroListaNegra">
+    <xs:sequence>
+      <xs:element name="callerId" type="xs:string" />
+      <xs:element name="fechaIngreso" type="xs:dateTime" />
+      <xs:element name="motivoIngreso" type="xs:string" />
+      <xs:element name="descripcion" type="xs:string" />
+      <xs:element name="idAccion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="numeroListaBlanca">
+    <xs:sequence>
+      <xs:element name="callerId" type="xs:string" />
+      <xs:element name="fechaIngreso" type="xs:dateTime" />
+      <xs:element name="descripcion" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="notificacion">
+    <xs:sequence>
+      <xs:element name="nombreNotificacion" type="xs:string" />
+      <xs:element name="statusNotificacion" type="s:EnumNotificaciones" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="EnumNotificaciones">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ON" />
+      <xs:enumeration value="OFF" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

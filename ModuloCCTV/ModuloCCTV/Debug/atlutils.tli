@@ -1,0 +1,48 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.23026.0 (593d7308).
+//
+// c:\users\alex\documents\visual studio 2015\projects\modulocctv\modulocctv\debug\atlutils.tli
+//
+// Wrapper implementations for Win32 type library ..\logger\ATLUtils.exe
+// compiler-generated file created 11/22/15 at 12:32:39 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ILogger wrapper method implementations
+//
+
+inline HRESULT ILogger::Log ( enum LEVEL msgLevel, const _variant_t & message, const _variant_t & sourceFile, unsigned int sourceLine, long timeStamp, unsigned long threadID, unsigned long processID ) {
+    HRESULT _hr = raw_Log(msgLevel, message, sourceFile, sourceLine, timeStamp, threadID, processID);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ILogger::AddNewDatabaseLogLocation ( long customizeVisualy, unsigned long ownerProcessID, enum LEVEL loggingLevel, unsigned long * locationID, const _variant_t & connectingString, const _variant_t & tableName, const _variant_t & levelCol, const _variant_t & timeCol, const _variant_t & sequenceNumberCol, const _variant_t & sourceFileCol, const _variant_t & sourceLineCol, const _variant_t & threadIdCol, const _variant_t & processIdCol, const _variant_t & messageCol ) {
+    HRESULT _hr = raw_AddNewDatabaseLogLocation(customizeVisualy, ownerProcessID, loggingLevel, locationID, connectingString, tableName, levelCol, timeCol, sequenceNumberCol, sourceFileCol, sourceLineCol, threadIdCol, processIdCol, messageCol);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ILogger::AddNewWindowLogLocation ( long customizeVisualy, unsigned long ownerProcessID, enum LEVEL loggingLevel, unsigned long * locationID, const _variant_t & windowTitle, unsigned long maxRecords, long alwaysOnTop, long autoScroll ) {
+    HRESULT _hr = raw_AddNewWindowLogLocation(customizeVisualy, ownerProcessID, loggingLevel, locationID, windowTitle, maxRecords, alwaysOnTop, autoScroll);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ILogger::AddNewFileLogLocation ( long customizeVisualy, unsigned long ownerProcessID, enum LEVEL loggingLevel, unsigned long * locationID, const _variant_t & fileName, long maxSize, int allowRead, int allowWrite, int rotate ) {
+    HRESULT _hr = raw_AddNewFileLogLocation(customizeVisualy, ownerProcessID, loggingLevel, locationID, fileName, maxSize, allowRead, allowWrite, rotate);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ILogger::GetLocationLevel ( unsigned long locationID, enum LEVEL * loggingLevel ) {
+    HRESULT _hr = raw_GetLocationLevel(locationID, loggingLevel);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ILogger::SetLocationLevel ( unsigned long locationID, enum LEVEL loggingLevel ) {
+    HRESULT _hr = raw_SetLocationLevel(locationID, loggingLevel);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

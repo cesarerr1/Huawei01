@@ -1,0 +1,74 @@
+Sun Nov 22 16:30:47 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 16:30:47 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 16:30:47 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 16:34:56 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 16:34:56 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 16:34:56 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 16:35:40 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 16:35:40 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 16:35:40 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 16:37:12 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 16:37:12 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 16:37:12 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 16:37:15 2015  [ERROR]: ModuloCCTVDlg - No se logro iniciar sesión en el IVS. [109100019]
+Sun Nov 22 16:37:44 2015  [ERROR]: ModuloCCTVDlg - Error en la invocación de la cámara. [999115322]
+Sun Nov 22 16:39:13 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 16:39:13 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 16:39:13 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 16:39:20 2015  [ERROR]: ModuloCCTVDlg - Error en la invocación de la cámara. [999115322]
+Sun Nov 22 17:16:44 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:16:44 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:16:44 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:23:11 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:23:11 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:23:12 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:23:46 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:23:46 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:23:46 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:23:49 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [0][02319340000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:23:49 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [1][03645270000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:23:49 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [2][04608380000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:23:49 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [3][05523330000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:23:49 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [4][05775150000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:23:49 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [5][09569040000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:23:49 2015  [ERROR]: ModuloCCTVDlg - Error en la invocación de la cámara. [999115322]
+Sun Nov 22 17:28:25 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:28:25 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:28:25 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:28:28 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [0][02319340000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:28:28 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [1][03645270000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:28:28 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [2][04608380000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:28:28 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [3][05523330000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:28:28 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [4][05775150000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:28:28 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [5][09569040000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:28:28 2015  [ERROR]: ModuloCCTVDlg - Error en la invocación de la cámara. [129108001]
+Sun Nov 22 17:29:54 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:29:54 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:29:54 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:29:56 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [0][02319340000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:29:56 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [1][03645270000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:29:56 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [2][04608380000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:29:56 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [3][05523330000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:29:56 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [4][05775150000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:29:56 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [5][09569040000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:29:56 2015  [ERROR]: ModuloCCTVDlg - Error en la invocación de la cámara. [129108001]
+Sun Nov 22 17:31:51 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:31:51 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:31:51 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:31:54 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [0][1][0][02319340000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:31:54 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [1][1][1][03645270000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:31:54 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [2][1][1][04608380000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:31:54 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [3][1][1][05523330000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:31:54 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [4][1][0][05775150000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:31:54 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [5][1][0][09569040000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:31:54 2015  [ERROR]: ModuloCCTVDlg - Error en la invocación de la cámara. [129108001]
+Sun Nov 22 17:33:39 2015  [ALWAYS]: Inicio del procedimiento.
+Sun Nov 22 17:33:39 2015  [INFO]: ModuloCCTVDlg - Arrancando proceso de inicialización de la interfase.
+Sun Nov 22 17:33:39 2015  [INFO]: ModuloCCTVDlg - Se logro inicializar la interfase con el IVS.
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [0][1][0][02319340000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [1][1][1][03645270000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [2][1][1][04608380000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [3][1][1][05523330000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [4][1][0][05775150000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Datos de la cámara. [5][1][0][09569040000000000101#b6bfedbd2bb84861913ac25d21d88241]
+Sun Nov 22 17:33:42 2015  [INFO]: ModuloCCTVDlg - Se logro completar el request de la cámara.

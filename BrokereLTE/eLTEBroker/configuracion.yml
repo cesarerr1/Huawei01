@@ -1,0 +1,19 @@
+server:
+  host: 172.21.100.254
+  port: 8030
+  timeout: 3000
+elte:
+  host: 192.168.3.30
+  port: 5060
+  usuario: 9998
+  clave: 9998
+logs:
+  nivel: DEBUG
+  size: 10000000
+  numero: 5
+max:
+  camaras: 3
+conf:
+  lista: TRUE
+  tiempo: 5
+  localip: 172.21.100.254
